@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./img/eberhard-grossgasteiger-KLSvEQcMdT0-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-weight: 600;
+    height: 30vh;
+}
+
+form {
+    width: 30%;
+}
+
+fieldset {
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+input {
+    width: 10%;
+    height: 28px;
+    text-align: center;
+    background-color: rgb(67, 67, 67);
+    color: white;
+    border: none;
+    margin: 2px;
+    font-weight: 600;
+    border-radius: 3px;
+    outline: none;
+}
+
+.otp-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1050px) {
+    form {
+        width: 55%;
+    }
+    
+    fieldset {
+        padding: 20px 30px;
+        border-radius: 5px;
+    }
+    
+    input {
+        width: 10%;
+        height: 28px;
+        text-align: center;
+        background-color: rgb(67, 67, 67);
+        color: white;
+        border: none;
+        margin: 2px;
+        font-weight: 600;
+        border-radius: 3px;
+        outline: none;
+    }
+    
+    .otp-inputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 530px) {
+    form {
+        width: 80%
+    }
+
+    input {
+        width: 10%;
+        height: 23px;
+    }
+}

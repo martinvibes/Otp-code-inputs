@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="otp-form">
+        <fieldset class="field">
+          <legend>Enter OTP</legend>
+          <div id="otp-inputs">
+            <label for="otp-1">OTP Code:</label>
+            <input type="text" id="otp-1" oninput="this.value = this.value.replace(/[^0-9]/g, '');" pattern="\d*" maxlength="1" required>
+            <input type="text" id="otp-2" oninput="this.value = this.value.replace(/[^0-9]/g, '');" pattern="\d*" maxlength="1" required>
+            <input type="text" id="otp-3" oninput="this.value = this.value.replace(/[^0-9]/g, '');" pattern="\d*" maxlength="1" required>
+            <input type="text" id="otp-4" oninput="this.value = this.value.replace(/[^0-9]/g, '');" pattern="\d*" maxlength="1" required>
+            <input type="text" id="otp-5" oninput="this.value = this.value.replace(/[^0-9]/g, '');" pattern="\d*" maxlength="1" required>
+            <input type="text" id="otp-6" oninput="this.value = this.value.replace(/[^0-9]/g, '');" pattern="\d*" maxlength="1" required>
+          </div>
+        </fieldset>
+      </form>
+      
+    <script src="./index.js"></script>
+</body>
+</html>
